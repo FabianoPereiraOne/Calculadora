@@ -5,6 +5,7 @@ body{
 header{
     font: normal 20pt Arial;
     color:white;
+    text-shadow: 1px 1px 0px black;
 }
 section{
     background: white;
@@ -12,19 +13,32 @@ section{
     border-radius: 10px;
     width: 500px;
     margin:auto;
+    height: 200px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.342);
 }
 footer{
     font: italic 15pt Arial;
     color: white;
 }
-p#res{
-    background-color: rgb(103, 104, 104);
+.resul{
+    position: relative;
+    top: 10px;
     width: 25%;
     margin: auto;
     color: white;
     border-radius: 5px;
-}
-div#opera{
     padding: 5px;
+}
+div#opera-1{
+    padding: 10px;
+    position: relative;
+    top: -20px;
+}
+div#opera-2{
+    padding: 10px;
+    position: relative;
+    top: -30px;
+}
+.b:hover{
+    background: rgba(0, 128, 0, 0.438);
 }

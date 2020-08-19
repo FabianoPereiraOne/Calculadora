@@ -16,11 +16,18 @@
         <div>
             <p>N°1 <input type="number" name="num1" id="caixanum1"></p>
             <p>N°2 <input type="number" name="num2" id="caixanum2"></p>
-            <p id="res">Resultado</p>
         </div>
-        <div id= "opera">
-           <input type="button" value="➕" onclick="calcular('soma')">  <input type="button" value="➖" onclick="calcular('subtrair')">  <input type="button"
-         value="✖️" onclick="calcular('multiplicar')">  <input type="button" value="➗" onclick="calcular('dividir')"> <input type="button" value="◼️" onclick="calcular('potenciaçao')">
+        <div id= "opera-1">
+           <input class="b" type="button" value="➕" onclick="calcular('soma')">  
+           <input class="b" type="button" value="➖" onclick="calcular('subtrair')">  
+           <input class="b" type="button"value="✖️" onclick="calcular('multiplicar')">  
+           <input class="b" type="button" value="➗" onclick="calcular('dividir')"> 
+           <input class="b" type="button" value="◼️" onclick="calcular('potenciaçao')">
+        </div>
+        <div id="opera-2">
+            <input class="b" type="button" value="MIN" onclick="calcular('min')">
+           <input class="b" type="button" value="MAX" onclick="calcular('max')">
+           <input class="b" type="button" value="MEDIA" onclick="calcular('media')">
         </div>
     </section>
     <footer>
