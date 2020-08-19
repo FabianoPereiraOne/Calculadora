@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(130, 209, 3);
+    text-align: center;
+}
+header{
+    font: normal 20pt Arial;
+    color:white;
+}
+section{
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+    width: 500px;
+    margin:auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.342);
+}
+footer{
+    font: italic 15pt Arial;
+    color: white;
+}
+p#res{
+    background-color: rgb(103, 104, 104);
+    width: 25%;
+    margin: auto;
+    color: white;
+    border-radius: 5px;
+}
+div#opera{
+    padding: 5px;
+}
